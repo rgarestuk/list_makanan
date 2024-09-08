@@ -40,6 +40,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 $conn->close();
-header("Location: index.php"); // Arahkan kembali ke halaman utama setelah upload
+header("Location: form_upload.php"); // Arahkan kembali ke halaman utama setelah upload
 exit();
 ?>
